@@ -1,0 +1,108 @@
+.DocsWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.DocsContainer {
+
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: cadetblue;*/
+}
+
+.DocsContainer h1{
+    margin-left: 100px;
+    text-align: left;
+}
+
+.DocsContainer h2{
+    padding-top: 100px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.DocsContainer h4{
+    margin-left: 50px;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+.DocsContainer p{
+    text-indent: 40px;
+    text-align: justify;
+}
+
+
+.ExplanationBox{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 72px 40px 40px;
+    width: 225px;
+    position: relative;
+}
+
+.ConfigDocBox{
+
+}
+
+.MacroName{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: #637cae;
+    font-weight: bold;
+}
+
+.DefaultConf{
+    color: black;
+}
+
+.InlineBoxLeft{
+    display: flex;
+    flex-direction: row;
+    /*background-color: blue;*/
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.ButtonsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    font-size: 16px;
+    color: #173f5f;
+} 
+
+.ButtonsContainer:hover{
+    cursor: pointer;
+}
+
+.CardButton{
+    padding: 5px 0;
+    border: 2px solid #4267b2;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #f5f6f7;
+    color: #4b4f56;
+}
+
+.CardButton:hover{
+    cursor: pointer;
+}
+
+.DeleteBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.DeleteBtn:hover{
+    cursor: pointer;
+}

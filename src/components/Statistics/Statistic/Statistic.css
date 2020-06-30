@@ -1,0 +1,19 @@
+.Stat{
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
+.TimeContainer{
+    position: absolute;
+    right: 26px;
+    top: 12px;
+    color: gray;
+}

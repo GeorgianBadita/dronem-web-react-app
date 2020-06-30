@@ -1,0 +1,8 @@
+.EnvBuilder{
+    width: 100%;
+    background-color: #e9ebee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}

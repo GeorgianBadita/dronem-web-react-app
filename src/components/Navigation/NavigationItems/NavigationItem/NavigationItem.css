@@ -1,0 +1,27 @@
+/* .NavigationItem {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: inline;
+    width: 100%;
+    white-space: nowrap;
+    padding: 20px;
+} */
+
+.NavigationItem{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    white-space: nowrap;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.NavigationItem:hover,
+.NavigationItem:active,
+.NavigationItem:focus{
+    border-bottom: 2px solid white;
+    background-color: #3b5da0;
+    outline: none;
+}
