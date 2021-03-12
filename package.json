@@ -44,7 +44,7 @@
     "react": "^16.10.0",
     "react-animated-css": "^1.2.1",
     "react-chartkick": "^0.4.0",
-    "react-dev-utils": "^4.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.10.0",
     "react-notifications-component": "^2.4.0",
     "react-router": "^5.2.0",
