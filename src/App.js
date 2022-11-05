@@ -6,22 +6,6 @@ import {ToastContainer} from 'react-toastify';
 
 
 class App extends Component {
-    // componentDidMount() {
-    //   const payload = {
-    //       username: 'geobadita',
-    //       email: 'geo.badita@gmail.com',
-    //       password: 'qwertyuiop'
-    //   }
-    //   axios.post('api/users/signup/', payload)
-    //       .then(response => console.log(response))
-    //       .then(err => console.log(err));
-    // }
-    // <div className={classes.App}>
-    // {/*<DronemStats/>*/}
-    //
-    // </div>
-
-
     render() {
         return (
             <BrowserRouter>
